@@ -3,7 +3,7 @@ require 'sinatra/base'
 class Battle < Sinatra::Base
 
   get '/' do
-    "Hey Daniel Emanuel Costea all good "
+    "The app is ready to rumble"
   end
 
   run! if app_file ==$0
