@@ -1,7 +1,13 @@
-
+<h1>Do you want to attack the player</h1>
 
 <%= @player_1_name %> vs. <%= @player_2_name %>
 
 <%= @player_2_name %>: 10 points
 
-<a href="/attack">Attack</a>
+<!-- <a href="/attack">Attack</a> -->
+
+<form action="/attack">
+
+<input type="submit" value="Attack" style="width:200px">
+
+</form>
